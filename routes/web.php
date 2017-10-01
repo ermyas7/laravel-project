@@ -10,7 +10,26 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//create item
+Route::post('test',function(){
 
-Route::get('/', function () {
-    return view('welcome');
 });
+//read item
+Route::get('test',function(){
+	echo '<form method="POST" action="test">' ;
+	echo  '<input type="submit">';
+	/*
+	echo  '<input type="hidden" value="csrf_token()" name="_token" ';
+	echo    '</form>';*/
+});
+//update item
+
+Route::put('test', function(){
+
+
+} );
+//delete item
+Route::delete('test', function(){
+
+
+} );
