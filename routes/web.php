@@ -18,9 +18,9 @@ Route::post('test',function(){
 Route::get('test',function(){
 	echo '<form method="POST" action="test">' ;
 	echo  '<input type="submit">';
-	/*
+	
 	echo  '<input type="hidden" value="csrf_token()" name="_token" ';
-	echo    '</form>';*/
+	echo    '</form>';
 });
 //update item
 
